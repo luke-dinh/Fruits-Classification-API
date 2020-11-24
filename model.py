@@ -86,9 +86,7 @@ class NeuralNetwork:
         #loss 1: binary crossentropy
         return -(np.sum(y*np.log(y_pred)) + (1-y) * (1 - np.log(1 - y_pred)))
         
-        #loss 2
-        #for i in range (0, len(self.layers)-1):
-            #element_loss = 
+
 
 
 
